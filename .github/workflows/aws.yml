@@ -32,7 +32,7 @@ on:
 
 env:
   AWS_REGION: eu-west-2                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: devops_rep_cluster           # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: devops_repro           # set this to your Amazon ECR repository name
   ECS_SERVICE: devops_rep_service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: devops_rep_cluster                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: devops-bmi1-taskdef # set this to the path to your Amazon ECS task definition
