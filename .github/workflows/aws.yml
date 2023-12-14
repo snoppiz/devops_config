@@ -35,9 +35,9 @@ env:
   ECR_REPOSITORY: devops_rep_cluster           # set this to your Amazon ECR repository name
   ECS_SERVICE: devops_rep_service                 # set this to your Amazon ECS service name
   ECS_CLUSTER: devops_rep_cluster                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: devops-bmi1-taskdef # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: devops_rep_bmi-taskdef:2 # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: devops-github-c           # set this to the name of the container in the
+  CONTAINER_NAME: bmi_container           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 permissions:
